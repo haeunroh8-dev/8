@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>설문 화면</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+    .notice {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .screen-image {
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      overflow: hidden;
+      background: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .screen-image img {
+      width: 100%;
+      display: block;
+    }
+    .action-btn {
+      display: block;
+      width: 100%;
+      max-width: 360px;
+      padding: 16px;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .blue-btn {
+      background-color: #4A90E2;
+      color: white;
+      border: none;
+    }
+    .white-btn {
+      background-color: white;
+      color: #666;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <p class="notice">※ 위 화면은 멤버십 혜택을 보여주는 화면입니다.</p>
+
+  <div class="screen-image">
+    <img src="1번.png" alt="멤버십 혜택 화면 미리보기" />
+  </div>
+
+  <a
+    class="action-btn blue-btn"
+    href="https://form.typeform.com/to/q33upa3y?button=혜택유지하기"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    혜택 유지하기
+  </a>
+
+  <a
+    class="action-btn white-btn"
+    href="https://form.typeform.com/to/q33upa3y?button=해지하기"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    해지하기
+  </a>
+</body>
+</html>
